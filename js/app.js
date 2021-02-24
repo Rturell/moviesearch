@@ -13,7 +13,7 @@ $("#btn-search").on("click", function () {
     var peliculaBuscada = $("#input").val();
 
     $.ajax({
-        url: "http://private.omdbapi.com/?apikey=bef9c583&t=" + peliculaBuscada,  
+        url: "https://private.omdbapi.com/?apikey=bef9c583&t=" + peliculaBuscada,  
         success: function (datosObtenidos) {
 
             if (datosObtenidos.Response === "False" ) {
