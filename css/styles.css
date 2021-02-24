@@ -1,0 +1,30 @@
+body { 
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    background-image: url(/img/3389491.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#buscador {
+    padding: 5rem 0rem 5rem 0rem;
+    height: 120vh;
+}
+
+#box-search, #inicial, #search-movie { 
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+#poster { 
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.alert { 
+    border-radius: 1rem;
+}
